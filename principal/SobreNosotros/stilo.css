@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.nav-item {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 2em;
+}
+
+#nosotros h2, #mision-vision h2, #loading h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+#nosotros h3, #mision-vision h3 {
+    margin-top: 1.5em;
+    color: #2c3e50;
+}
+
+#nosotros p, #mision-vision p {
+    line-height: 1.6;
+    color: #333;
+}
+
+#nosotros ul, #mision-vision ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nosotros ul li, #mision-vision ul li {
+    margin: 0.5em 0;
+}
+
+#nosotros blockquote, #mision-vision blockquote {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #e0f7fa;
+    border-left: 5px solid #4CAF50}
